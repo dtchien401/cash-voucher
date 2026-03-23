@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cali Voucher Fundraising Plan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.75); }
+    .soft-shadow { box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08); }
+    .metric-card:hover { transform: translateY(-2px); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-50 via-white to-red-50 text-slate-900">
+  <div class="min-h-screen">
+    <header class="sticky top-0 z-30 border-b border-white/60 bg-white/80 backdrop-blur">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-red-600" data-vi="California Fitness" data-en="California Fitness">California Fitness</p>
+          <h1 class="text-xl sm:text-2xl font-bold" data-vi="Kế hoạch gọi vốn bằng Voucher" data-en="Voucher-Based Fundraising Plan">Kế hoạch gọi vốn bằng Voucher</h1>
+        </div>
+        <button id="langToggle" class="rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold shadow-sm hover:bg-slate-50 transition">
+          English
+        </button>
+      </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <section class="rounded-3xl bg-gradient-to-r from-slate-950 via-red-900 to-red-700 text-white p-8 lg:p-10 soft-shadow overflow-hidden relative">
+        <div class="absolute inset-0 opacity-15 bg-[radial-gradient(circle_at_top_right,white,transparent_35%)]"></div>
+        <div class="relative grid lg:grid-cols-[1.2fr_0.8fr] gap-8 items-center">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.25em] text-red-200" data-vi="Mô hình Hybrid: App + Staff" data-en="Hybrid Model: App + Staff">Mô hình Hybrid: App + Staff</p>
+            <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold leading-tight" data-vi="Biến voucher thành công cụ bơm tiền mặt nhanh, có kiểm soát và có câu chuyện rõ ràng với nhân viên" data-en="Turn vouchers into a controlled, high-speed cash injection engine with a clear story for both members and staff.">Biến voucher thành công cụ bơm tiền mặt nhanh, có kiểm soát và có câu chuyện rõ ràng với nhân viên</h2>
+            <p class="mt-4 text-base sm:text-lg text-red-50/90 max-w-3xl" data-vi="Mục tiêu của kế hoạch này là tạo dòng tiền ngắn hạn, thúc đẩy adoption cho Cali App, giữ động lực cho đội ngũ, đồng thời kiểm soát rủi ro margin và redemption." data-en="The objective of this plan is to generate short-term cash, accelerate Cali App adoption, maintain staff motivation, and still keep margin and redemption risks under control.">Mục tiêu của kế hoạch này là tạo dòng tiền ngắn hạn, thúc đẩy adoption cho Cali App, giữ động lực cho đội ngũ, đồng thời kiểm soát rủi ro margin và redemption.</p>
+            <div class="mt-6 flex flex-wrap gap-3 text-sm">
+              <span class="rounded-full bg-white/15 px-4 py-2" data-vi="Tối đa 10,000 voucher" data-en="Up to 10,000 vouchers">Tối đa 10,000 voucher</span>
+              <span class="rounded-full bg-white/15 px-4 py-2" data-vi="1,000 nhân viên" data-en="1,000 employees">1,000 nhân viên</span>
+              <span class="rounded-full bg-white/15 px-4 py-2" data-vi="Voucher value 10M VND" data-en="Voucher value 10M VND">Voucher value 10M VND</span>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="rounded-3xl bg-white/10 p-5 border border-white/15">
+              <div class="text-xs uppercase tracking-wider text-red-100" data-vi="Cash-in dự kiến" data-en="Projected cash-in">Cash-in dự kiến</div>
+              <div class="mt-2 text-3xl font-bold">92B</div>
+              <div class="mt-1 text-sm text-red-100" data-vi="Theo kịch bản hybrid minh họa" data-en="Based on the hybrid illustration scenario">Theo kịch bản hybrid minh họa</div>
+            </div>
+            <div class="rounded-3xl bg-white/10 p-5 border border-white/15">
+              <div class="text-xs uppercase tracking-wider text-red-100" data-vi="Net contribution" data-en="Net contribution">Net contribution</div>
+              <div class="mt-2 text-3xl font-bold">~30B</div>
+              <div class="mt-1 text-sm text-red-100" data-vi="Sau commission và service cost" data-en="After commission and service cost">Sau commission và service cost</div>
+            </div>
+            <div class="rounded-3xl bg-white/10 p-5 border border-white/15">
+              <div class="text-xs uppercase tracking-wider text-red-100" data-vi="App channel" data-en="App channel">App channel</div>
+              <div class="mt-2 text-3xl font-bold">8M</div>
+              <div class="mt-1 text-sm text-red-100" data-vi="Mua trực tiếp voucher 10M" data-en="Buy a 10M voucher directly">Mua trực tiếp voucher 10M</div>
+            </div>
+            <div class="rounded-3xl bg-white/10 p-5 border border-white/15">
+              <div class="text-xs uppercase tracking-wider text-red-100" data-vi="Staff channel" data-en="Staff channel">Staff channel</div>
+              <div class="mt-2 text-3xl font-bold">10M</div>
+              <div class="mt-1 text-sm text-red-100" data-vi="Bán full price + thưởng theo tier" data-en="Sell at full price + tiered incentive">Bán full price + thưởng theo tier</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid lg:grid-cols-2 gap-6">
+        <div class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+          <div class="inline-flex rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-red-700" data-vi="1. Business logic" data-en="1. Business logic">1. Business logic</div>
+          <h3 class="mt-4 text-2xl font-bold" data-vi="Tại sao model này hợp lý" data-en="Why this model makes sense">Tại sao model này hợp lý</h3>
+          <div class="mt-5 space-y-4 text-sm sm:text-base text-slate-700">
+            <div>
+              <div class="font-semibold" data-vi="A. Tạo tiền mặt ngay" data-en="A. Immediate cash collection">A. Tạo tiền mặt ngay</div>
+              <p data-vi="Khách hàng trả tiền trước, công ty thu tiền ngay. Điều này tạo ra một nguồn cash injection ngắn hạn mà không cần vay nợ ngay lập tức." data-en="Customers pay upfront, so the company receives cash immediately. This creates a short-term cash injection without immediate borrowing.">Khách hàng trả tiền trước, công ty thu tiền ngay. Điều này tạo ra một nguồn cash injection ngắn hạn mà không cần vay nợ ngay lập tức.</p>
+            </div>
+            <div>
+              <div class="font-semibold" data-vi="B. App thúc đẩy scale" data-en="B. App drives scale">B. App thúc đẩy scale</div>
+              <p data-vi="App bán giá hấp dẫn 8M cho voucher value 10M để kích cầu, tăng conversion và tận dụng thời điểm launch app để tạo thói quen mua hàng số." data-en="The app offers an attractive 8M price for a 10M voucher to drive demand, increase conversion, and use the app launch moment to build digital purchase behavior.">App bán giá hấp dẫn 8M cho voucher value 10M để kích cầu, tăng conversion và tận dụng thời điểm launch app để tạo thói quen mua hàng số.</p>
+            </div>
+            <div>
+              <div class="font-semibold" data-vi="C. Staff giữ giá trị" data-en="C. Staff protects value">C. Staff giữ giá trị</div>
+              <p data-vi="Nhân viên vẫn bán ở mức 10M, giúp bảo vệ perceived value và tạo động lực bán hàng thông qua structure thưởng theo tier." data-en="Staff continue selling at 10M, which protects perceived value and creates selling motivation through the tiered incentive structure.">Nhân viên vẫn bán ở mức 10M, giúp bảo vệ perceived value và tạo động lực bán hàng thông qua structure thưởng theo tier.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+          <div class="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700" data-vi="2. Two-channel model" data-en="2. Two-channel model">2. Two-channel model</div>
+          <h3 class="mt-4 text-2xl font-bold" data-vi="Cấu trúc kênh bán" data-en="Sales channel structure">Cấu trúc kênh bán</h3>
+          <div class="mt-5 grid gap-4">
+            <div class="rounded-2xl border border-red-100 bg-red-50 p-4">
+              <div class="text-lg font-bold text-red-800" data-vi="Kênh 1: Cali App" data-en="Channel 1: Cali App">Kênh 1: Cali App</div>
+              <ul class="mt-3 space-y-2 text-sm text-slate-700">
+                <li data-vi="Khách mua trực tiếp voucher 10M với giá 8M" data-en="Members buy a 10M voucher directly for 8M">Khách mua trực tiếp voucher 10M với giá 8M</li>
+                <li data-vi="Không commission" data-en="No commission">Không commission</li>
+                <li data-vi="Mục tiêu: scale nhanh, tăng app adoption, lấy cash" data-en="Goal: scale fast, grow app adoption, and capture cash">Mục tiêu: scale nhanh, tăng app adoption, lấy cash</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+              <div class="text-lg font-bold text-slate-800" data-vi="Kênh 2: Nhân viên" data-en="Channel 2: Staff">Kênh 2: Nhân viên</div>
+              <ul class="mt-3 space-y-2 text-sm text-slate-700">
+                <li data-vi="Nhân viên bán voucher 10M ở full price" data-en="Staff sell the voucher at full price: 10M">Nhân viên bán voucher 10M ở full price</li>
+                <li data-vi="Thưởng theo tier dựa trên số voucher bán được" data-en="Incentives are paid based on tier achievement">Thưởng theo tier dựa trên số voucher bán được</li>
+                <li data-vi="Mục tiêu: giữ margin, bảo vệ value, huy động đội ngũ" data-en="Goal: protect margin, preserve value, and mobilize the workforce">Mục tiêu: giữ margin, bảo vệ value, huy động đội ngũ</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+          <div>
+            <div class="inline-flex rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700" data-vi="3. Commission structure" data-en="3. Commission structure">3. Commission structure</div>
+            <h3 class="mt-4 text-2xl font-bold" data-vi="Cơ chế thưởng cho nhân viên" data-en="Staff incentive structure">Cơ chế thưởng cho nhân viên</h3>
+            <p class="mt-2 text-slate-600" data-vi="Base incentive là 5M / voucher. Thưởng thực tế phụ thuộc vào tier đạt được." data-en="Base incentive is 5M per voucher. Actual payout depends on the achieved tier.">Base incentive là 5M / voucher. Thưởng thực tế phụ thuộc vào tier đạt được.</p>
+          </div>
+        </div>
+        <div class="mt-6 overflow-x-auto">
+          <table class="min-w-full text-sm">
+            <thead>
+              <tr class="border-b border-slate-200 text-slate-500 uppercase text-xs tracking-wider">
+                <th class="text-left py-3 pr-4" data-vi="Số voucher / NV" data-en="Vouchers sold / employee">Số voucher / NV</th>
+                <th class="text-left py-3 pr-4" data-vi="Điều kiện" data-en="Qualification">Điều kiện</th>
+                <th class="text-left py-3 pr-4" data-vi="Tỷ lệ thưởng" data-en="Payout rate">Tỷ lệ thưởng</th>
+                <th class="text-left py-3 pr-4" data-vi="Thưởng / voucher" data-en="Payout / voucher">Thưởng / voucher</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100">
+              <tr>
+                <td class="py-3 pr-4 font-semibold">0–4</td>
+                <td class="py-3 pr-4" data-vi="Không qualify" data-en="Not qualified">Không qualify</td>
+                <td class="py-3 pr-4">0%</td>
+                <td class="py-3 pr-4">0</td>
+              </tr>
+              <tr>
+                <td class="py-3 pr-4 font-semibold">5</td>
+                <td class="py-3 pr-4" data-vi="Qualified" data-en="Qualified">Qualified</td>
+                <td class="py-3 pr-4">75%</td>
+                <td class="py-3 pr-4">3.75M</td>
+              </tr>
+              <tr>
+                <td class="py-3 pr-4 font-semibold">6–7</td>
+                <td class="py-3 pr-4" data-vi="Tier 2" data-en="Tier 2">Tier 2</td>
+                <td class="py-3 pr-4">80%</td>
+                <td class="py-3 pr-4">4.0M</td>
+              </tr>
+              <tr>
+                <td class="py-3 pr-4 font-semibold">8–9</td>
+                <td class="py-3 pr-4" data-vi="Tier 3" data-en="Tier 3">Tier 3</td>
+                <td class="py-3 pr-4">90%</td>
+                <td class="py-3 pr-4">4.5M</td>
+              </tr>
+              <tr>
+                <td class="py-3 pr-4 font-semibold">10</td>
+                <td class="py-3 pr-4" data-vi="Max tier" data-en="Max tier">Max tier</td>
+                <td class="py-3 pr-4">100%</td>
+                <td class="py-3 pr-4">5.0M</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="grid xl:grid-cols-[1.05fr_0.95fr] gap-6">
+        <div class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+          <div class="inline-flex rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700" data-vi="4. Projection scenario" data-en="4. Projection scenario">4. Projection scenario</div>
+          <h3 class="mt-4 text-2xl font-bold" data-vi="Kịch bản dự toán minh họa" data-en="Illustrative projection scenario">Kịch bản dự toán minh họa</h3>
+          <p class="mt-2 text-slate-600" data-vi="Kịch bản này dùng để giải thích logic tài chính, không phải forecast cuối cùng." data-en="This scenario is meant to explain the financial logic, not to serve as the final forecast.">Kịch bản này dùng để giải thích logic tài chính, không phải forecast cuối cùng.</p>
+          <div class="mt-6 overflow-x-auto">
+            <table class="min-w-full text-sm">
+              <thead>
+                <tr class="border-b border-slate-200 text-slate-500 uppercase text-xs tracking-wider">
+                  <th class="text-left py-3 pr-4" data-vi="Kênh" data-en="Channel">Kênh</th>
+                  <th class="text-left py-3 pr-4" data-vi="Số voucher" data-en="Vouchers">Số voucher</th>
+                  <th class="text-left py-3 pr-4" data-vi="Giá bán" data-en="Selling price">Giá bán</th>
+                  <th class="text-left py-3 pr-4" data-vi="Cash-in" data-en="Cash-in">Cash-in</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                <tr>
+                  <td class="py-3 pr-4 font-semibold" data-vi="App" data-en="App">App</td>
+                  <td class="py-3 pr-4">4,000</td>
+                  <td class="py-3 pr-4">8M</td>
+                  <td class="py-3 pr-4 font-semibold">32B</td>
+                </tr>
+                <tr>
+                  <td class="py-3 pr-4 font-semibold" data-vi="Nhân viên" data-en="Staff">Nhân viên</td>
+                  <td class="py-3 pr-4">6,000</td>
+                  <td class="py-3 pr-4">10M</td>
+                  <td class="py-3 pr-4 font-semibold">60B</td>
+                </tr>
+                <tr class="bg-slate-50">
+                  <td class="py-3 pr-4 font-bold" data-vi="Tổng" data-en="Total">Tổng</td>
+                  <td class="py-3 pr-4 font-bold">10,000</td>
+                  <td class="py-3 pr-4">—</td>
+                  <td class="py-3 pr-4 font-bold text-red-700">92B</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="mt-6 grid sm:grid-cols-3 gap-4">
+            <div class="metric-card transition rounded-2xl bg-slate-50 p-4 border border-slate-100">
+              <div class="text-xs uppercase tracking-wider text-slate-500" data-vi="Cash-in" data-en="Cash-in">Cash-in</div>
+              <div class="mt-2 text-2xl font-bold">92B</div>
+            </div>
+            <div class="metric-card transition rounded-2xl bg-slate-50 p-4 border border-slate-100">
+              <div class="text-xs uppercase tracking-wider text-slate-500" data-vi="Commission" data-en="Commission">Commission</div>
+              <div class="mt-2 text-2xl font-bold">27B</div>
+            </div>
+            <div class="metric-card transition rounded-2xl bg-slate-50 p-4 border border-slate-100">
+              <div class="text-xs uppercase tracking-wider text-slate-500" data-vi="Service cost" data-en="Service cost">Service cost</div>
+              <div class="mt-2 text-2xl font-bold">35B</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+          <div class="inline-flex rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700" data-vi="5. Profit bridge" data-en="5. Profit bridge">5. Profit bridge</div>
+          <h3 class="mt-4 text-2xl font-bold" data-vi="Cầu nối từ cash-in đến net contribution" data-en="Bridge from cash-in to net contribution">Cầu nối từ cash-in đến net contribution</h3>
+          <div class="mt-6 space-y-4">
+            <div class="rounded-2xl border border-slate-200 p-4 flex items-center justify-between gap-4">
+              <div>
+                <div class="font-semibold" data-vi="Bước 1: Tổng cash thu về" data-en="Step 1: Total cash collected">Bước 1: Tổng cash thu về</div>
+                <div class="text-sm text-slate-500" data-vi="App + Staff" data-en="App + Staff">App + Staff</div>
+              </div>
+              <div class="text-xl font-bold">92B</div>
+            </div>
+            <div class="rounded-2xl border border-slate-200 p-4 flex items-center justify-between gap-4">
+              <div>
+                <div class="font-semibold" data-vi="Bước 2: Trừ commission" data-en="Step 2: Less commission">Bước 2: Trừ commission</div>
+                <div class="text-sm text-slate-500" data-vi="Chỉ áp cho kênh Staff" data-en="Applied to Staff channel only">Chỉ áp cho kênh Staff</div>
+              </div>
+              <div class="text-xl font-bold text-amber-600">(27B)</div>
+            </div>
+            <div class="rounded-2xl border border-slate-200 p-4 flex items-center justify-between gap-4">
+              <div>
+                <div class="font-semibold" data-vi="Bước 3: Trừ service delivery cost" data-en="Step 3: Less service delivery cost">Bước 3: Trừ service delivery cost</div>
+                <div class="text-sm text-slate-500" data-vi="Giả định 35% trên voucher value" data-en="Assuming 35% of voucher value">Giả định 35% trên voucher value</div>
+              </div>
+              <div class="text-xl font-bold text-amber-600">(35B)</div>
+            </div>
+            <div class="rounded-2xl border border-red-200 bg-red-50 p-5 flex items-center justify-between gap-4">
+              <div>
+                <div class="font-semibold text-red-800" data-vi="Net contribution" data-en="Net contribution">Net contribution</div>
+                <div class="text-sm text-red-700" data-vi="Đóng góp ròng sau cost chính" data-en="Net contribution after major costs">Đóng góp ròng sau cost chính</div>
+              </div>
+              <div class="text-3xl font-extrabold text-red-700">~30B</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid lg:grid-cols-2 gap-6">
+        <div class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+          <div class="inline-flex rounded-full bg-violet-50 px-3 py-1 text-xs font-semibold text-violet-700" data-vi="6. Key risks" data-en="6. Key risks">6. Key risks</div>
+          <h3 class="mt-4 text-2xl font-bold" data-vi="Rủi ro chính cần quản trị" data-en="Critical risks to manage">Rủi ro chính cần quản trị</h3>
+          <div class="mt-5 space-y-4">
+            <div class="rounded-2xl border border-slate-200 p-4">
+              <div class="font-semibold" data-vi="Cannibalization" data-en="Cannibalization">Cannibalization</div>
+              <p class="mt-1 text-sm text-slate-600" data-vi="Khách đang sẵn sàng mua 10M có thể chuyển sang mua 8M trên app." data-en="Customers who are willing to buy at 10M may switch to the 8M app offer.">Khách đang sẵn sàng mua 10M có thể chuyển sang mua 8M trên app.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 p-4">
+              <div class="font-semibold" data-vi="Staff conflict" data-en="Staff conflict">Staff conflict</div>
+              <p class="mt-1 text-sm text-slate-600" data-vi="Nhân viên có thể cảm thấy app đang bán rẻ hơn và làm giảm động lực bán." data-en="Staff may feel the app is undercutting them and reducing their motivation to sell.">Nhân viên có thể cảm thấy app đang bán rẻ hơn và làm giảm động lực bán.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 p-4">
+              <div class="font-semibold" data-vi="Redemption overload" data-en="Redemption overload">Redemption overload</div>
+              <p class="mt-1 text-sm text-slate-600" data-vi="Nếu quá nhiều khách redeem trong cùng thời điểm, service load và cost sẽ tăng mạnh." data-en="If too many customers redeem at the same time, service load and cost will spike.">Nếu quá nhiều khách redeem trong cùng thời điểm, service load và cost sẽ tăng mạnh.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl bg-white p-6 soft-shadow border border-slate-100">
+          <div class="inline-flex rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold text-teal-700" data-vi="7. Control actions" data-en="7. Control actions">7. Control actions</div>
+          <h3 class="mt-4 text-2xl font-bold" data-vi="Giải pháp kiểm soát nên áp dụng" data-en="Recommended control actions">Giải pháp kiểm soát nên áp dụng</h3>
+          <div class="mt-5 space-y-4 text-sm text-slate-700">
+            <div class="rounded-2xl bg-slate-50 p-4 border border-slate-100">
+              <div class="font-semibold" data-vi="1. App flash-sale window" data-en="1. App flash-sale window">1. App flash-sale window</div>
+              <p data-vi="Chỉ mở app price 8M trong khoảng thời gian ngắn như 72 giờ hoặc 7 ngày để tạo urgency và giảm xung đột giá kéo dài." data-en="Keep the 8M app price live only for a short window, such as 72 hours or 7 days, to create urgency and reduce prolonged pricing conflict.">Chỉ mở app price 8M trong khoảng thời gian ngắn như 72 giờ hoặc 7 ngày để tạo urgency và giảm xung đột giá kéo dài.</p>
+            </div>
+            <div class="rounded-2xl bg-slate-50 p-4 border border-slate-100">
+              <div class="font-semibold" data-vi="2. Pay staff commission on redemption" data-en="2. Pay staff commission on redemption">2. Pay staff commission on redemption</div>
+              <p data-vi="Giúp bảo vệ cash flow và tránh phải chi ngay toàn bộ incentive trong giai đoạn đầu." data-en="This protects cash flow and avoids paying out the full incentive too early in the campaign.">Giúp bảo vệ cash flow và tránh phải chi ngay toàn bộ incentive trong giai đoạn đầu.</p>
+            </div>
+            <div class="rounded-2xl bg-slate-50 p-4 border border-slate-100">
+              <div class="font-semibold" data-vi="3. Set redemption rules" data-en="3. Set redemption rules">3. Set redemption rules</div>
+              <p data-vi="Thiết lập expiry 6–12 tháng, booking rule, selected services và quota redeem để tránh overload." data-en="Set a 6–12 month expiry, booking rules, selected services, and redemption quotas to avoid overload.">Thiết lập expiry 6–12 tháng, booking rule, selected services và quota redeem để tránh overload.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rounded-3xl bg-slate-950 text-white p-8 soft-shadow">
+        <div class="grid lg:grid-cols-[1fr_0.85fr] gap-8 items-start">
+          <div>
+            <div class="inline-flex rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/80" data-vi="8. Executive conclusion" data-en="8. Executive conclusion">8. Executive conclusion</div>
+            <h3 class="mt-4 text-3xl font-bold" data-vi="Đây không chỉ là chương trình bán voucher. Đây là một cơ chế huy động tiền mặt, tăng adoption cho app và thử sức mạnh thương mại của toàn hệ thống." data-en="This is not just a voucher sales program. It is a cash mobilization mechanism, an app adoption accelerator, and a real test of the commercial power of the whole system.">Đây không chỉ là chương trình bán voucher. Đây là một cơ chế huy động tiền mặt, tăng adoption cho app và thử sức mạnh thương mại của toàn hệ thống.</h3>
+          </div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
+            <div class="text-sm uppercase tracking-wider text-white/60" data-vi="Kết luận ngắn" data-en="Quick conclusion">Kết luận ngắn</div>
+            <ul class="mt-4 space-y-3 text-sm text-white/90">
+              <li data-vi="• App giúp kéo volume và tốc độ cash-in" data-en="• The app drives volume and speed of cash-in">• App giúp kéo volume và tốc độ cash-in</li>
+              <li data-vi="• Staff giúp bảo vệ value và kích hoạt lực lượng bán" data-en="• Staff protect value and activate the sales force">• Staff giúp bảo vệ value và kích hoạt lực lượng bán</li>
+              <li data-vi="• Thành công phụ thuộc vào pricing control, payout timing và redemption rules" data-en="• Success depends on pricing control, payout timing, and redemption rules">• Thành công phụ thuộc vào pricing control, payout timing và redemption rules</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('langToggle');
+    let currentLang = 'vi';
+
+    function applyLanguage(lang) {
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-vi][data-en]').forEach(el => {
+        el.textContent = el.getAttribute(lang === 'vi' ? 'data-vi' : 'data-en');
+      });
+      toggleBtn.textContent = lang === 'vi' ? 'English' : 'Tiếng Việt';
+      currentLang = lang;
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      applyLanguage(currentLang === 'vi' ? 'en' : 'vi');
+    });
+
+    applyLanguage('vi');
+  </script>
+</body>
+</html>
